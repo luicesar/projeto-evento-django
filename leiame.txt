@@ -1,0 +1,15 @@
+# Criar ambiente virtual primeiro
+    # python -m venv venv
+    # .\venv\Scripts\activate
+    # acessa a página 'https://www.djangoproject.com/download/'
+      # instalar: pip install Django==4.2.1
+    # .\venv\Scripts\activate
+    # depois selecionar o interpretador do ambiente virtual criado.
+# criar projeto django
+    # 'django-admin startproject vamomarcar .'
+    # iniciar projeto: python manage.py runserver
+# criar um app dentro do projeto django
+    # 'django-admin startapp agenda'
+    # para funcionar é bom 
+      . add INSTALLED_APPS = [ 'agenda.apps.AgendaConfig'] no arquivo settings.py do projeto 'vamomarcar'
+# Django ORM - sqlite3
