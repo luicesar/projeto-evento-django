@@ -13,3 +13,7 @@
     # para funcionar é bom 
       . add INSTALLED_APPS = [ 'agenda.apps.AgendaConfig'] no arquivo settings.py do projeto 'vamomarcar'
 # Django ORM - sqlite3
+    # criou, alterou propriedades da classes é preciso rodar o comando migrations
+    # gerar:    python manage.py makemigrations 
+    # executar: python manage.py migrate 
+# SQLite: É uma extensão do banco de dados - Explore and query SQLite databases
